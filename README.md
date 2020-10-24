@@ -1,7 +1,12 @@
 # La Formation Complète C#
 Sources de la Formation Complète C# de Docstring.
 
-## Notes
+## Télécharger les sources au format .zip
+
+Si vous n'êtes pas familier avec Git, vous pouvez télécharger toutes les sources de la formation au format .zip en cliquant en haut à droite sur le bouton Code :
+![Download as zip](img/download_as_zip.png)
+
+## Fiches récapitulatives
 Section #1 : Introduction
 - [Ce qu'il faut retenir.](section-01_introduction/notes.md)
 
