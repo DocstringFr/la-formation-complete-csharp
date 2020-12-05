@@ -9,7 +9,7 @@ int number;
 bool success = int.TryParse(myStringValue, out number);
 ```
 
-Le bout de code suivant va essayer de convertir la valeur "100" enregistrée dans la variable myStringValue. La **function TryParse retournera un booléen qui indiquera si la conversion a réussi** (true) ou non (false). Si la conversion a réussi, la valeur sera enregistrée dans la variable passée en second paramètre à savoir dans l'exemple ci-dessus la variable **number**.
+Le bout de code suivant va essayer de convertir la valeur "100" enregistrée dans la variable myStringValue. La **fonction TryParse retournera un booléen qui indiquera si la conversion a réussi** (true) ou non (false). Si la conversion a réussi, la valeur sera enregistrée dans la variable passée en second paramètre à savoir dans l'exemple ci-dessus la variable **number**.
 
 Il est également possible de convertir une chaine de caractères en un autre type que **integer** en utilisant : 
 
@@ -19,7 +19,7 @@ Il est également possible de convertir une chaine de caractères en un autre ty
 
 Le fonctionnement est identique.
 
-# Je ne comprends pas l'utilité du mot clef out ?
+# Je ne comprends pas le mot clef out ?
 
 De manière très simplifiée (et donc forcément un peu fausse), le mot clef out permet d'enregistrer la valeur parsée dans une variable qui a été déclarée préalablement si la conversion peut s'effectuer.
 
